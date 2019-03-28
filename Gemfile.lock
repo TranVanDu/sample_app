@@ -111,6 +111,7 @@ GEM
     parser (2.6.2.0)
       ast (~> 2.4.0)
     powerpack (0.1.2)
+    psych (3.1.0)
     public_suffix (3.0.3)
     puma (3.12.1)
     rack (2.0.6)
