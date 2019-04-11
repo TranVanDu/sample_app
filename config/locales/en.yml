@@ -82,3 +82,13 @@ en:
     new:
       title: "Sign up"
       content_html: '<p>This will be a signup page for new users.</p>'
+      creat: "Create my account"
+      name: "Name"
+      email: "Email"
+      pass: "Password"
+      passcf: "Confirmation"
+  users_controller:
+      content: "Welcome to the Sample App!"
+  views:
+     shared:
+       content: "The form contains"

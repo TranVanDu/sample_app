@@ -47,3 +47,13 @@ vi:
      new:
        title: "Đăng kí"
        content_html: '<p>Đây sẽ là một trang đăng ký cho người dùng mới.</p>'
+       creat: "Tạo tài khoản"
+       name: "Tên"
+       email: "E-mail"
+       pass: "Mật Khẩu"
+       passcf: "Xác Nhận"
+  users_controller:
+     content: "Chào mừng bạn đến với Ứng Dụng!"
+  views:
+    shared:
+      content: "Biểu mẫu có chứa"
