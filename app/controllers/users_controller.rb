@@ -7,9 +7,11 @@ class UsersController < ApplicationController
     @user = User.new user_params
 
     if @user.save
-      flash[:success] = t("users_controller.content")
-      redirect_to @user
+      log_in @user
+      flash[:success] = t "users_controller.content"
+      redirect_to user_path(id: @user.id)
     else
+      flash.now[:danger] = t "users_controller.error"
       render :new
     end
   end

@@ -35,6 +35,11 @@ en:
     home: "Home"
     help: "Help"
     login: "Log in"
+    logout: "Log out"
+    content: "Account"
+    user: "Users"
+    profile: "Profile"
+    setting: "Settings"
   footer:
     content_html: 'The <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
       by <a href="http://www.michaelhartl.com/">Michael Hartl</a>'
@@ -89,6 +94,19 @@ en:
       passcf: "Confirmation"
   users_controller:
       content: "Welcome to the Sample App!"
+      error: "Error!"
   views:
      shared:
        content: "The form contains"
+     sessions:
+       title: "Log in"
+       email: "Email"
+       password: "Password"
+       login: "Signup now!"
+       users: "New users?"
+  helpers:
+     controller:
+       session:
+         error: "Invalid email/password combination"
+         success: "Logged in successfully"
+         log_out: "Log out successfuly"

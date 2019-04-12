@@ -4,6 +4,11 @@ vi:
     home: "Trang chủ"
     help: "Trợ giúp"
     login: "Đăng nhập"
+    logout: "Đăng Xuất"
+    content: "Tài khoản"
+    user: "Người dùng"
+    profile: "Hồ sơ"
+    setting: "Cài đặt"
   footer:
     content_html: 'The <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
                            by <a href="http://www.michaelhartl.com/">Michael Hartl</a>'
@@ -54,6 +59,19 @@ vi:
        passcf: "Xác Nhận"
   users_controller:
      content: "Chào mừng bạn đến với Ứng Dụng!"
+     error: "Lỗi!!!"
   views:
     shared:
       content: "Biểu mẫu có chứa"
+    sessions:
+      title: "Đăng nhập"
+      email: "E-mail"
+      password: "Mật khẩu"
+      login: "Đăng kí ngay!"
+      users: "Người dùng mới?"
+  helpers:
+    controller:
+      session:
+        error: "email / mật khẩu không hợp lệ"
+        success: "Đăng nhập thành công"
+        log_out: "Đăng xuất thành công"

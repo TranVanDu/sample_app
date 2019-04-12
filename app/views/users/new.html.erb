@@ -2,7 +2,7 @@
 <h1><%= t ".title" %></h1>
 <div class="row">
   <div class="col-md-6 col-md-offset-3">
-    <%= form_for @user, url: signup_path do |f| %>
+    <%= form_with model: @user, url: signup_path, locale: true do |f| %>
       <%= render "shared/error_messages" %>
       <%= f.label :name, t("users.new.name") %>
       <%= f.text_field :name %>
