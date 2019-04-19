@@ -104,6 +104,7 @@ en:
        password: "Password"
        login: "Signup now!"
        users: "New users?"
+       box: "Remember me on this computer"
   helpers:
      controller:
        session:

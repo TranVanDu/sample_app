@@ -69,6 +69,7 @@ vi:
       password: "Mật khẩu"
       login: "Đăng kí ngay!"
       users: "Người dùng mới?"
+      box: "Lưu trên máy tính"
   helpers:
     controller:
       session:
