@@ -92,9 +92,23 @@ en:
       email: "Email"
       pass: "Password"
       passcf: "Confirmation"
+    edit:
+      tittle: "Edit user"
+      button: "Save changes"
+      change: "change"
+      content: "Update your profile"
+    index:
+      title: "All user"
+    _user:
+      delete: "Delete"
   users_controller:
       content: "Welcome to the Sample App!"
       error: "Error!"
+      content2: "Profile updated"
+      content3: "User delete"
+      error2: "User did not delete"
+      content4: "Please log in."
+      error3: "Not find user"
   views:
      shared:
        content: "The form contains"
