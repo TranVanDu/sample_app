@@ -5,6 +5,8 @@ class SessionsController < ApplicationController
     user = User.find_by email: params[:session][:email].downcase
     if user&.authenticate(params[:session][:password])
       login_with_remember user
+      redirect_back_or user
+      flash[:success] = t "helpers.controller.session.success"
     else
       flash.now[:danger] = t "helpers.controller.session.error"
       render :new
@@ -21,7 +23,5 @@ class SessionsController < ApplicationController
     log_in user
     param = params[:session][:remember_me]
     param == Settings.one ? remember(user) : forget(user)
-    flash[:success] = t "helpers.controller.session.success"
-    redirect_to user_path(id: user.id)
   end
 end

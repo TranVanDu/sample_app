@@ -1,0 +1,12 @@
+<% provide :title, t("users.edit.tittle") %>
+<% provide :button_text, t("users.edit.button") %>
+<h1><%= t "users.edit.content" %></h1>
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= render "from" %>
+    <div class="gravatar_edit">
+      <%= gravatar_for @user %>
+      <%= link_to t("users.edit.change"), "http://gravatar.com/emails",target: "_blank"  %>
+    </div>
+  </div>
+</div>

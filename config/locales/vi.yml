@@ -49,17 +49,31 @@ vi:
     application:
       page_title: " Sản phẩm mẫu của Ruby on Rails"
   users:
-     new:
-       title: "Đăng kí"
-       content_html: '<p>Đây sẽ là một trang đăng ký cho người dùng mới.</p>'
-       creat: "Tạo tài khoản"
-       name: "Tên"
-       email: "E-mail"
-       pass: "Mật Khẩu"
-       passcf: "Xác Nhận"
+    new:
+      title: "Đăng kí"
+      content_html: '<p>Đây sẽ là một trang đăng ký cho người dùng mới.</p>'
+      creat: "Tạo tài khoản"
+      name: "Tên"
+      email: "E-mail"
+      pass: "Mật Khẩu"
+      passcf: "Xác Nhận"
+    edit:
+      tittle: "Sửa người dùng"
+      button: "Lưu thay đổi"
+      change: "Thay đổi"
+      content: "Cập nhật hồ sơ của bạn"
+    index:
+      title: "Tất cả người dùng"
+    _user:
+      delete: "Xóa"
   users_controller:
-     content: "Chào mừng bạn đến với Ứng Dụng!"
-     error: "Lỗi!!!"
+    content: "Chào mừng bạn đến với Ứng Dụng!"
+    error: "Lỗi!!!"
+    content2: "Hồ sơ được cập nhật"
+    content3: "Người dùng đã được xóa"
+    error2: "Không thể xóa người dùng"
+    content4: "Hãy đăng nhập!"
+    error3: "không tìm thấy người dùng"
   views:
     shared:
       content: "Biểu mẫu có chứa"

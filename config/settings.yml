@@ -3,3 +3,5 @@ maximum_name_length: 50
 minimum_password_length: 6
 gravatar_size: 80
 one: "1"
+user_size_gravatar: 50
+per_pages: 10
