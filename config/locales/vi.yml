@@ -22,6 +22,7 @@ vi:
         <a href="https://www.railstutorial.org/">Hướng dẫn về Ruby on Rails</a>.
         </p>'
       pages1: "Chào mừng bạn đến với Sample App"
+      content: "Micropost Feed"
     help:
       title: "Trợ giúp"
       content_html: '</p>Nhận trợ giúp về Hướng dẫn Ruby on Rails tại
@@ -66,6 +67,8 @@ vi:
       title: "Tất cả người dùng"
     _user:
       delete: "Xóa"
+    show:
+      content: "Microposts"
   users_controller:
     content: "Chào mừng bạn đến với Ứng Dụng!"
     error: "Lỗi!!!"
@@ -77,6 +80,11 @@ vi:
   views:
     shared:
       content: "Biểu mẫu có chứa"
+      user_info:
+        content: "Xem hồ sơ của tôi"
+      microposts_form:
+        content1: "Soạn microposts mới..."
+        content2: "Đăng"
     sessions:
       title: "Đăng nhập"
       email: "E-mail"
@@ -90,3 +98,13 @@ vi:
         error: "email / mật khẩu không hợp lệ"
         success: "Đăng nhập thành công"
         log_out: "Đăng xuất thành công"
+  microposts:
+    controller:
+      success1: "Đã tạo Microposts!"
+      success2: "Đã xóa Microposts"
+      error1: "Tạo thất bại!"
+      error2: "Xóa Thất bại"
+    html:
+      content1: "Xóa"
+      content2: "Đã đăng"
+      content3: "trước"
