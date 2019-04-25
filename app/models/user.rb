@@ -1,6 +1,6 @@
 class User < ApplicationRecord
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i
-
+  has_many :microposts, dependent: :destroy
   attr_reader :remember_token
 
   before_save :email_downcase
@@ -42,6 +42,10 @@ class User < ApplicationRecord
 
   def forget
     update remember_digest: nil
+  end
+
+  def feed
+    Micropost.where("user_id = ?", id)
   end
 
   private

@@ -5,3 +5,7 @@ gravatar_size: 80
 one: "1"
 user_size_gravatar: 50
 per_pages: 10
+modelss:
+  micropost_maximum: 140
+  micropost_byte: 5
+upload_size_limit: 400

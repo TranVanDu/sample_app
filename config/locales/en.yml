@@ -53,6 +53,7 @@ en:
      <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
      sample application.</p>'
       pages1: "Welcome to the Sample App"
+      content: "Micropost Feed"
     help:
       title: "Help"
       content_html: '<p>
@@ -101,6 +102,9 @@ en:
       title: "All user"
     _user:
       delete: "Delete"
+    show:
+      content: "Microposts"
+
   users_controller:
       content: "Welcome to the Sample App!"
       error: "Error!"
@@ -112,6 +116,11 @@ en:
   views:
      shared:
        content: "The form contains"
+       user_info:
+         content: "view my profile"
+       microposts_form:
+         content1: "Compose new micropost..."
+         content2: "Post"
      sessions:
        title: "Log in"
        email: "Email"
@@ -125,3 +134,13 @@ en:
          error: "Invalid email/password combination"
          success: "Logged in successfully"
          log_out: "Log out successfuly"
+  microposts:
+    controller:
+      success1: "Micropost created!"
+      success2: "Micropost delete"
+      error1: "Created failed!"
+      error2: "failed delete"
+    html:
+      content1: "Delete"
+      content2: "Posted"
+      content3: "ago"
