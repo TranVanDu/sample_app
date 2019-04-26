@@ -118,6 +118,9 @@ en:
        content: "The form contains"
        user_info:
          content: "view my profile"
+       stats:
+         follow: "following"
+         follower: "follower"
        microposts_form:
          content1: "Compose new micropost..."
          content2: "Post"
@@ -128,6 +131,14 @@ en:
        login: "Signup now!"
        users: "New users?"
        box: "Remember me on this computer"
+     relationships:
+        show_follow:
+          content1: "view my profile"
+          span: "Microposts:"
+        unfollow:
+          content1: "Unfollow"
+        follow:
+          content: "Follow"
   helpers:
      controller:
        session:
@@ -144,3 +155,11 @@ en:
       content1: "Delete"
       content2: "Posted"
       content3: "ago"
+  relationships:
+    stats:
+      following:
+        one: "1 Following"
+        other: "%{count} Following"
+      followers:
+        one: "1 Follower"
+        other: "%{count} Follower"

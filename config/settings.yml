@@ -9,3 +9,5 @@ modelss:
   micropost_maximum: 140
   micropost_byte: 5
 upload_size_limit: 400
+views_number:
+  shows_size: 30
