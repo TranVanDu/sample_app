@@ -85,6 +85,9 @@ vi:
       microposts_form:
         content1: "Soạn microposts mới..."
         content2: "Đăng"
+      stats:
+        follow: "following"
+        follower: "follower"
     sessions:
       title: "Đăng nhập"
       email: "E-mail"
@@ -92,6 +95,14 @@ vi:
       login: "Đăng kí ngay!"
       users: "Người dùng mới?"
       box: "Lưu trên máy tính"
+    relationships:
+      show_follow:
+        content1: "Hồ sơ của tôi"
+        span: "Microposts:"
+      unfollow:
+        content1: "Bỏ theo dõi"
+      follow:
+        content: "Theo dõi"
   helpers:
     controller:
       session:
@@ -108,3 +119,10 @@ vi:
       content1: "Xóa"
       content2: "Đã đăng"
       content3: "trước"
+  relationships:
+    following:
+      one: "1 Following"
+      other: "%{count} Following"
+    followers:
+      one: "1 Follower"
+      other: "%{count} Follower"
